@@ -7,7 +7,7 @@ function randomInt(min, max) {
     min = 0
   }
 
-
+  // Math return
   var rand = Math.random()
   return Math.floor(min * (1 - rand) + rand * max)
 }
@@ -23,7 +23,6 @@ function generatePassword() {
 
   console.log(userInput)
 
-  //while (true)
 
   var userInput = window.prompt("How long do you want your password to be?")
 
@@ -53,7 +52,7 @@ function generatePassword() {
 
   var optionsCart = []
 
-
+  // If scenario
   if (userWantsNumbers === true) {
     optionsCart.push(numberList)
 
